@@ -12,9 +12,9 @@ const readDataFile = (fileName) => {
 }
 
 const writeDataFile = (fileName) => {
-  let filePath = path.resolve(__dirname, '..', 'data', fileName)  
+  let filePath = path.resolve(__dirname, '..', 'data', fileName)
   return new Promise((resolve, reject) => (
-    fs.writeFile(filePath, data, (error) => {
+    fs.writeFile(filePath, (error) => {
       if (error) return reject(error)
       resolve()
     }))

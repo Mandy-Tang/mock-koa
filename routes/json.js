@@ -1,4 +1,4 @@
-const {readDataFile, writeDataFile} = require('../utils/dataFile')
+const {readDataFile} = require('../utils/dataFile')
 
 module.exports = async (ctx) => {
   const data = await readDataFile('json.json')
