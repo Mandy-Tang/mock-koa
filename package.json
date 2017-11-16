@@ -10,7 +10,7 @@
   "keywords": [
     "koa2"
   ],
-  "node": "8.4.0",
+  "node": "9.2.0",
   "author": "",
   "license": "MIT",
   "dependencies": {
